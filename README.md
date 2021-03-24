@@ -34,7 +34,7 @@ sudo snap install vscode
 
 ```bash
 # Clone this repository
-git clone htts:// ..... /cplings
+git clone https://github.com/rdjondo/cplings
 cd cplings
 mkdir build && cd build
 cmake ..
@@ -48,7 +48,7 @@ Install Visual Studio Community Edition and Git.
 
 ```cmd
 # Clone this repository
-git clone htts:// ..... /cplings
+git clone https://github.com/rdjondo/cplings
 
 ```
 

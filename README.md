@@ -18,6 +18,7 @@ Alternatively, for a first-time C++ learner, there are several other resources:
 
 You will need to have a C++ Compiler installed. You can get it by following the instructions below.
 
+Install and Usage Demo video:
 [![Install and Usage Demo](https://img.youtube.com/vi/18vNfxwU5n4/0.jpg)](https://youtu.be/18vNfxwU5n4)
 
 ## Windows

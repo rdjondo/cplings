@@ -18,6 +18,8 @@ Alternatively, for a first-time C++ learner, there are several other resources:
 
 You will need to have a C++ Compiler installed. You can get it by following the instructions below.
 
+[![Install and Usage Demo](https://img.youtube.com/vi/18vNfxwU5n4/0.jpg)](https://youtu.be/18vNfxwU5n4)
+
 ## Windows
 Visit https://visualstudio.microsoft.com/vs/community/ and download Visual Studio Community. 
 When, installing it make sure to select Desktop development with C++ and then, in the "Installation details" menu enable support for the C++ CMake Tools for Windows

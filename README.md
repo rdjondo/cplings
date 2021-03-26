@@ -11,7 +11,7 @@ Alternatively, for a first-time C++ learner, there are several other resources:
 - [The C++ FAQ](https://isocpp.org/wiki/faq)
 - [C++ Core guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
-*cplings got its inspiration from the magnificient [rustlings repository](https://github.com/rust-lang/rustlings), which aims at familiarize newcomers to the Rust language. This repository is a sort of a fork of the cplings repository for the C++ language*
+*cplings got its inspiration from the magnificient [rustlings repository](https://github.com/rust-lang/rustlings), which aims at familiarizing newcomers to the Rust language. This repository is a sort of a fork of the cplings repository for the C++ language*
 
 
 ## Getting Started

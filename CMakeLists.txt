@@ -29,7 +29,7 @@ set(CPM_DOWNLOAD_LOCATION "cmake/CPM.cmake")
 include(${CPM_DOWNLOAD_LOCATION})
 
 # Specify dependencies
-CPMAddPackage("gh:catchorg/Catch2@2.13.4")
+CPMAddPackage("gh:catchorg/Catch2@2.13.5")
 
 # Including packages for safe_numerics
 CPMAddPackage(NAME safe_numerics

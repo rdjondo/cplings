@@ -5,14 +5,14 @@
 set(VARIABLES_EXERCISES_PATH ".")
 set(UNIT_TESTING_LIBRARY Catch2 ${BOOST_LIBS})
 set(EXERCISES
-    variables8
-    variables7
-    variables6
-    variables5
-    variables4
-    variables3
-    variables2
-    variables1
+  variables1
+  variables2
+  variables3
+  variables4
+  variables5
+  variables6
+  variables7
+  variables8
 )
 
 foreach(_exercise ${EXERCISES})

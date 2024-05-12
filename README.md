@@ -119,7 +119,7 @@ Instructions : ... work in progress ...
 
 ## Some technical notes
 
-The cpling build system based on CMake and (CPM.make)[https://github.com/cpm-cmake/CPM.cmake] for package management
+The cpling build system based on CMake and [CPM.make](https://github.com/cpm-cmake/CPM.cmake) for package management
 
 ### How to use cmake
 https://cliutils.gitlab.io/modern-cmake/

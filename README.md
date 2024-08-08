@@ -59,7 +59,7 @@ git clone https://github.com/rdjondo/cplings
 Open the folder cplings in Visual Studio. Add support for CMake and run a build. You should expect the build to fail : your task is to fix each exercise for the build to succed.
 
 
-## Doing exercises
+## Doing the exercises
 
 The exercises are sorted by topic and can be found in the subdirectory `cplings/exercises/<topic>`. For every topic there is an additional README file with some resources to get you started on the topic. We really recommend that you have a look at them before you start.
 

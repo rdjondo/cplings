@@ -7,7 +7,7 @@ project(cplings
     )
 
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Set default compile flags for GCC/Clang
@@ -78,6 +78,8 @@ set(CHAPTERS
   08_ownership
   09_templates
   10_security
+  11_move_semantics
+  12_lambdas
 )
 
 foreach(_test_case ${CHAPTERS})

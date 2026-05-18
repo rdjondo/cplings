@@ -8,6 +8,10 @@ set(EXERCISES
   containers1
   containers2
   containers3
+  containers4
+  containers5
+  containers6
+  containers7
 )
 
 foreach(_exercise ${EXERCISES})
@@ -17,6 +21,7 @@ foreach(_exercise ${EXERCISES})
   # link dependencies
   target_link_libraries(${_exercise} ${MYPROJECT_LIBRARIES} ${UNIT_TESTING_LIBRARY} cplings)
   add_custom_command(
+    POST_BUILD
     TARGET ${_exercise}
     COMMENT "Run Tests"
     DEPENDS ${_exercise}

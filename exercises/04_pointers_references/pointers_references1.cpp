@@ -17,7 +17,7 @@ void my_pointer_content(int * const value, int increment) { // the address of po
 }
 
 // Test cases
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("my_pointer_value_swap") {
     std::vector<int> test_values = {1, 5, 10, 15};

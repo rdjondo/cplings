@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.20)
 
 # set the project name
 project(cplings
@@ -28,22 +28,22 @@ set(CPM_DOWNLOAD_LOCATION "cmake/CPM.cmake")
 include(${CPM_DOWNLOAD_LOCATION})
 
 # Specify dependencies
-CPMAddPackage("gh:catchorg/Catch2@2.13.5")
+CPMAddPackage("gh:catchorg/Catch2@3.15.0")
 
 # Including packages for safe_numerics
 CPMAddPackage(NAME safe_numerics
   GIT_REPOSITORY https://github.com/boostorg/safe_numerics.git
-  GIT_TAG boost-1.75.0
+  GIT_TAG boost-1.91.0
   GIT_SHALLOW TRUE
   DOWNLOAD_ONLY YES)
-CPMAddPackage("gh:boostorg/core#boost-1.75.0")
-CPMAddPackage("gh:boostorg/config#boost-1.75.0")
-CPMAddPackage("gh:boostorg/detail#boost-1.75.0")
-CPMAddPackage("gh:boostorg/logic#boost-1.75.0")
-CPMAddPackage("gh:boostorg/mp11#boost-1.75.0")
-CPMAddPackage("gh:boostorg/preprocessor#boost-1.75.0")
-CPMAddPackage("gh:boostorg/type_traits#boost-1.75.0")
-CPMAddPackage("gh:boostorg/integer#boost-1.75.0")
+CPMAddPackage("gh:boostorg/core#boost-1.91.0")
+CPMAddPackage("gh:boostorg/config#boost-1.91.0")
+CPMAddPackage("gh:boostorg/detail#boost-1.91.0")
+CPMAddPackage("gh:boostorg/logic#boost-1.91.0")
+CPMAddPackage("gh:boostorg/mp11#boost-1.91.0")
+CPMAddPackage("gh:boostorg/preprocessor#boost-1.91.0")
+CPMAddPackage("gh:boostorg/type_traits#boost-1.91.0")
+CPMAddPackage("gh:boostorg/integer#boost-1.91.0")
 
 set(EXERCISES_PATH "exercises")
 set(BOOST_LIBS safe_numerics core config detail logic

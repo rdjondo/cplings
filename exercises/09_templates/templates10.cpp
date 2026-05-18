@@ -40,7 +40,7 @@ Iter my_advance(Iter iter, std::iter_difference_t<Iter> n) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_templates10_random_access") {
     std::vector<int> v{1, 2, 3, 4, 5};

@@ -5,7 +5,7 @@
 // Make me compile! Go to the folder hint if you want a hint :)
 
 // We sometimes encourage you to keep trying things on shape given exercise,
-// even after you already figured it out. 
+// even after you already figured it out.
 
 // Step 1: Make me compile. Replace the C array with a container that stores only unique values.
 // Hint: std::set or std::unordered_set automatically prevents duplicates.
@@ -22,7 +22,7 @@ void test_containers2() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers2") {
 	test_containers2();

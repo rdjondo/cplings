@@ -20,7 +20,7 @@ public:
             v.push_back(?);
         }
     };
-    const auto get() const { 
+    const auto get() const {
         return v;
     };
 };
@@ -35,7 +35,7 @@ std::vector<char> test_templates5_1() {
     return repeatChar.get();
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template5") {
     std::vector<int> repeatIntResult = test_templates5_0();

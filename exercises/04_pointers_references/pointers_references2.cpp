@@ -10,7 +10,7 @@ void my_reference_content(int value, int increment) {
     value += increment; // Don't change this line
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("my_reference_content") {
     std::vector<int> values = { 1, 5, 10, 15 };

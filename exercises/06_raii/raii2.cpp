@@ -51,7 +51,7 @@ void test_raii1() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_raii1") {
     test_raii1();

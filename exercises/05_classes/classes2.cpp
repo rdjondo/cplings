@@ -52,7 +52,7 @@ public:
 const double Circle::pi = 3.1415926535;
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_zero") {
     Shape shape;

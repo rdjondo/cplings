@@ -19,7 +19,7 @@ std::string fizz_if_foo(std::string fizzish) {
 
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("foo_for_fizz") {
     REQUIRE(fizz_if_foo("fizz") == "foo");

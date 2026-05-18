@@ -17,7 +17,7 @@
 // Use the keyword auto for the generic T returned by the function max
 
 int max(const std::vector<int>& vec) {
-    assert(("vec should not be empty", !vec.empty())); 
+    assert(("vec should not be empty", !vec.empty()));
 
     int max_val = vec[0];
     for (const auto& v : vec) {
@@ -39,7 +39,7 @@ std::pair<int, double>  test_templates3() {
     return {max_i, max_d};
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template3") {
     const std::pair<int, double> p = test_templates3();

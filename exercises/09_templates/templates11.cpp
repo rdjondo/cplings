@@ -30,7 +30,7 @@ T medianOfSorted(std::span<T, N> s) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_templates11_odd_size") {
     std::array<int, 5> arr{1, 3, 5, 7, 9};

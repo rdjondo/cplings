@@ -12,7 +12,7 @@ int bigger(int a, int b) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("ten_is_bigger_than_eight") {
     REQUIRE(bigger(10, 8) == 10);

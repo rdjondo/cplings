@@ -7,7 +7,7 @@
 // Make me pass the test! Go to the folder hint if you want a hint :)
 
 // We sometimes encourage you to keep trying things on a given exercise,
-// even after you already figured it out. 
+// even after you already figured it out.
 
 
 struct Song {
@@ -19,7 +19,7 @@ class MediaPlayer {
     static constexpr size_t max_num_songs = 4;
     std::array<Song, max_num_songs> song_ar;
 public:
-    MediaPlayer() {} 
+    MediaPlayer() {}
     void set_song(std::string name, int index){
         song_ar[index] = Song(name);
     }
@@ -54,7 +54,7 @@ void make_upper_0_lower_1(MediaPlayer &p){
     std::cout << s1_lower << "\n";
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_security2_0")
 {

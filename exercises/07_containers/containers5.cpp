@@ -26,7 +26,7 @@ std::map<char, std::vector<std::string>> groupByFirstLetter(const std::vector<st
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers5") {
     std::vector<std::string> words{"apple", "avocado", "banana", "blueberry", "cherry", "apricot"};

@@ -26,7 +26,7 @@ std::vector<std::unique_ptr<int>> buildNumbers() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_move_semantics2") {
     auto numbers = buildNumbers();

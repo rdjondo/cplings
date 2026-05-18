@@ -52,7 +52,7 @@ public:
     }
 };
 
-using HolderBox = std::unique_ptr<Holder>; // Note that HolderBox is a unique_ptr to Holder 
+using HolderBox = std::unique_ptr<Holder>; // Note that HolderBox is a unique_ptr to Holder
 
 void push_data(std::vector<HolderBox>& holder_list, HolderBox hold_ptr) {
     holder_list.push_back( ...? hold_ptr);
@@ -73,7 +73,7 @@ std::vector<HolderBox> test_ownership3() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_ownership3_0") {
     std::vector<HolderBox> v = test_ownership3();

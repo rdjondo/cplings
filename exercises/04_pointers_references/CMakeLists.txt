@@ -16,9 +16,9 @@ foreach(_exercise ${EXERCISES})
   # link dependencies
   target_link_libraries(${_exercise} ${MYPROJECT_LIBRARIES} ${UNIT_TESTING_LIBRARY} cplings)
   add_custom_command(
+    POST_BUILD
     TARGET ${_exercise}
     COMMENT "Run Tests"
-    DEPENDS ${_exercise}
     COMMAND ${_exercise}
   )
 endforeach()

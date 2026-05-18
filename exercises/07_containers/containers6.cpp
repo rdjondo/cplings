@@ -31,7 +31,7 @@ void removeNegatives(std::vector<int>& numbers) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers6_remove_evens") {
     std::vector<int> numbers{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

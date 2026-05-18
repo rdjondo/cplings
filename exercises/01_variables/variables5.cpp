@@ -6,11 +6,11 @@
 
 int output_10_function() {
   const int y = ;
-  return y; 
+  return y;
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("output_10_function") {
   assert (output_10_function() == 10);

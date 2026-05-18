@@ -26,7 +26,7 @@ std::vector<int> sortByAbsoluteValue(std::vector<int> numbers) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_lambdas2_case_insensitive") {
     std::vector<char> letters{'C', 'd', 'a', 'z', 't', 'S', 'p', 'm'};

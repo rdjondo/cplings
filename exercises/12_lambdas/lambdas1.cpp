@@ -20,7 +20,7 @@ std::size_t countStartingWith(const std::vector<std::string>& words, char letter
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_lambdas1") {
     std::vector<std::string> words{"apple", "pear", "plum", "orange", "peach", "grape", "greengage"};

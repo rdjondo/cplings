@@ -25,7 +25,7 @@ int function_syntax() {
     return final_price;
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("function_syntax") {
   REQUIRE(function_syntax() == 48);

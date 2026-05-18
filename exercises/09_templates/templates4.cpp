@@ -32,7 +32,7 @@ std::pair<double, int>  test_templates4() {
     return { sylvester.age(), blue.age() };
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template4") {
     const std::pair<double, int> ages = test_templates4();

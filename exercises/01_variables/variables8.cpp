@@ -29,7 +29,7 @@ void init_words(){
 const std::string secret_key = "Encrypted S3cr3t!";
 
 std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
-    // Tip: if you cannot find the problem replace all uint32_t with 
+    // Tip: if you cannot find the problem replace all uint32_t with
     // safe<uint32_t>, from the boost::safe_numerics library
     // The safe<uint32_t> will throw an exception to help you find the bug
 
@@ -42,7 +42,7 @@ std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
     return response;
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("integer_signedness") {
     // Initialize data

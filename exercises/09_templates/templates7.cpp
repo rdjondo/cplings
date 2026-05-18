@@ -24,7 +24,7 @@ struct is_pointer : false_type {};
 template<typename T> // Value is true if specializing pointer
 struct is_pointer<T*> : true_type {};
 
-// Use 'if constexpr (is_pointer<C>::value) { } else { } to output 
+// Use 'if constexpr (is_pointer<C>::value) { } else { } to output
 // the dereferenced pointer or the value if it's not a pointer
 template<typename C>
 void show(C data) {
@@ -47,7 +47,7 @@ void test_templates7_1() {
 
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template7") {
     test_templates7_0();

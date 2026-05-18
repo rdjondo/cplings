@@ -40,7 +40,7 @@ public:
 
 class Circle : public Shape {
 public:
-    Circle(const Point& centre = point_zero) : Shape(centre) { } 
+    Circle(const Point& centre = point_zero) : Shape(centre) { }
     virtual Point center() const {
         return Circle::center_;
     }
@@ -62,7 +62,7 @@ std::vector<Point> test_center() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_vtable") {
     const Point point_in{ 1.0, 1.0 };

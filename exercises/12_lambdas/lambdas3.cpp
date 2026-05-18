@@ -27,7 +27,7 @@ std::size_t countSortComparisons(std::vector<int> numbers) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_lambdas3_count_elements") {
     REQUIRE(countElements({1, 2, 3, 4, 5}) == 5);

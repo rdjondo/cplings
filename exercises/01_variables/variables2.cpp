@@ -10,7 +10,7 @@ int type_function(int input) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("type_function") {
   REQUIRE(type_function(0) == 0);

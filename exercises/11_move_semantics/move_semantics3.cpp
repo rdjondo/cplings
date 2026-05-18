@@ -52,7 +52,7 @@ public:
 };
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_move_semantics3_not_copyable") {
     static_assert(!std::is_copy_constructible<Handle>::value,

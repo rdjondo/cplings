@@ -9,7 +9,7 @@
 // We sometimes encourage you to keep trying things on shape given exercise,
 // even after you already figured it out.
 
-// Step 1: Make me compile. Share ownership of data from fill_vec1 to fill_vec2. 
+// Step 1: Make me compile. Share ownership of data from fill_vec1 to fill_vec2.
 // The challenge is to create an additional "artificial" owner of the data.
 
 
@@ -52,7 +52,7 @@ const int fill_vec2(std::shared_ptr<std::vector<MyInteger>> vec_ptr) {
 }
 
 const int fill_vec1(std::shared_ptr<std::vector<MyInteger>> vec_ptr) {
-    // Create an additional owner here : construct another shared data pointer 
+    // Create an additional owner here : construct another shared data pointer
     std::shared_ptr<std::vector<MyInteger>> vec(vec_ptr);  // This creates a second shared_ptr to the same vector, incrementing use_count to 3
     vec->push_back(22); // Here push_back is used inducing an unnecessary copy and deletion
     std::cout << "vec has length " << vec_ptr->size() << ", number of owners should be 3:" <<
@@ -87,7 +87,7 @@ const int test_ownership6() {
     return total_past_owners;
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_ownership6") {
     std::cout << "\ntest_ownership6\n";

@@ -30,7 +30,7 @@ std::vector<int> removeNegatives(std::vector<int> numbers) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_lambdas4_count_evens") {
     REQUIRE(countEvens({1, 2, 3, 4, 5, 6}) == 3);

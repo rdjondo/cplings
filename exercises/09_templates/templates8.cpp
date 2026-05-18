@@ -31,7 +31,7 @@ void print(const T& value) {
 struct NotPrintable {};
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_templates8_concept") {
     static_assert(Printable<int>);

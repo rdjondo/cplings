@@ -24,7 +24,6 @@ foreach(_exercise ${EXERCISES})
     POST_BUILD
     TARGET ${_exercise}
     COMMENT "Run Tests"
-    DEPENDS ${_exercise}
     COMMAND ${_exercise}
   )
 endforeach()

@@ -35,7 +35,7 @@ std::vector<std::string> reverseWords(const std::vector<std::string>& words) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers4") {
     std::vector<std::string> words{"The", "quick", "brown", "fox", "jumps"};

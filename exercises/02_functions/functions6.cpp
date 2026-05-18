@@ -41,7 +41,7 @@ int my_function() {
     return value +  + ; // Fix: fill in the two missing terms: the global and namespace value
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("learn_scope") {
     REQUIRE(my_function() == 13);

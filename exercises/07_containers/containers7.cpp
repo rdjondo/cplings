@@ -31,7 +31,7 @@ std::optional<double> average(const std::vector<int>& numbers) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers7_iota") {
     REQUIRE(makeRange(5) == std::vector<int>{1, 2, 3, 4, 5});

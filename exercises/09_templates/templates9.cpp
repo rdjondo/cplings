@@ -30,7 +30,7 @@ T sum(const std::vector<T>& values) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_templates9_concept") {
     static_assert(Summable<int>);

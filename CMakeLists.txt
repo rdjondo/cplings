@@ -80,6 +80,7 @@ set(CHAPTERS
   10_security
   11_move_semantics
   12_lambdas
+  13_variants
 )
 
 foreach(_test_case ${CHAPTERS})

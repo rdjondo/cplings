@@ -30,7 +30,7 @@ std::string classify(const Mixed& v) {
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("test_variants5_classify") {
+TEST_CASE("test_variants4_classify") {
     REQUIRE(classify(42)                 == "integer");
     REQUIRE(classify(std::string("hi"))  == "text");
     REQUIRE(classify(3.14)               == "other");

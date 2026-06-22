@@ -37,8 +37,7 @@ sudo apt install g++ cmake make gdb git libasan8
 For Fedora
 
 ```sh
-sudo apt install g++ cmake make gdb git libasan-static
-```
+sudo dnf install gcc-c++ cmake make gdb git libasan
 
 ```bash
 # Clone this repository
@@ -56,7 +55,7 @@ Install Visual Studio Community Edition and Git.
 
 ```cmd
 # Clone this repository
-git clone https://github.com/jaques-sam-tlv/cplings
+git clone https://github.com/rdjondo/cplings
 
 ```
 

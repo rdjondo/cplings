@@ -44,7 +44,7 @@ public:
 };
 
 
-void test_raii1() {
+void test_raii2() {
     Holder hold1{ "First hold" };
     Holder hold2{ "First hold" }; // calling to hold same resource, the count should not change
     Holder hold3{ "Third hold" };
@@ -53,8 +53,8 @@ void test_raii1() {
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("test_raii1") {
-    test_raii1();
+TEST_CASE("test_raii2") {
+    test_raii2();
     std::cout << "To avoid leaks the final number of resources should be 0 \n";
     std::cout << "The actual number of resources " << ExpensiveResource::getResourceCount() << "\n";
     REQUIRE(ExpensiveResource::getResourceCount() == 0);

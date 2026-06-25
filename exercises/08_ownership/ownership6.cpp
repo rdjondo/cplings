@@ -9,7 +9,7 @@
 // We sometimes encourage you to keep trying things on shape given exercise,
 // even after you already figured it out.
 
-// Step 1: Make me compile. Share ownership of data from fill_vec1 to fill_vec2. 
+// Step 1: Make me compile. Share ownership of data from fill_vec1 to fill_vec2.
 // The challenge is to create an additional "artificial" owner of the data.
 
 
@@ -72,7 +72,7 @@ const int test_ownership6() {
     auto vec_ptr  = std::make_shared<std::vector<MyInteger>>();
     vec_ptr->reserve(desired_vector_space);
 
-    vec_ptr->emplace_back(11); // emplace_back instead of push back avoids unecessary copy
+    vec_ptr->emplace_back(11); // emplace_back instead of push back avoids unnecessary copy
     std::cout << "vec has length " << vec_ptr->size() << ", number of owner:" <<
         vec_ptr.use_count() << "\n";
 

@@ -12,9 +12,9 @@
 // This exercises showcases integer overflows. This occurs when the 
 // selected datatype is not large enough to hold the value.
 // See https://www.learncpp.com/cpp-tutorial/fixed-width-integers-and-size-t/
-// See: https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/
+// See https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/
 
-const int y = 10; 
+const int y = 10;
 long long integer_char_sizes() {
     const char a = 10;
     const char b = ; // Fix: set expected value to pass the test

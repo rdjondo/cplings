@@ -42,7 +42,7 @@ public:
 
 class Circle : public Shape {
 public:
-    Circle(const Point& centre = point_zero) : Shape(centre) { } 
+    Circle(const Point& centre = point_zero) : Shape(centre) { }
     virtual Point center() const {
         return Circle::center_;
     }

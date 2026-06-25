@@ -25,7 +25,7 @@ public:
             v.push_back(?);
         }
     };
-    const auto get() const { 
+    const auto get() const {
         return v;
     };
 };

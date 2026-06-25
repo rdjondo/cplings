@@ -8,7 +8,7 @@
 
 const int y = ; // y is a global variable. Fix it's definition.
 int global_var_10_function() {
-  return y; 
+  return y;
 }
 
 

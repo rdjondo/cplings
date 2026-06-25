@@ -18,7 +18,7 @@ struct Point {
     }
 };
 
-constexpr Point point_zero = ; 
+constexpr Point point_zero = ;
 
 class Shape {
 public:

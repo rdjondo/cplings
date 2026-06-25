@@ -18,7 +18,7 @@ class MediaPlayer {
     static constexpr size_t max_num_songs = 4;
     std::array<Song, max_num_songs> song_ar;
 public:
-    MediaPlayer() {} 
+    MediaPlayer() {}
     void set_song(std::string name, int index){
         song_ar[index] = Song(name);
     }

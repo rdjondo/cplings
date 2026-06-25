@@ -12,12 +12,12 @@
 // even after you already figured it out.
 
 // Step 1: Make me compile. Make the function max as a template
-// function so that it could support generic inputs (vectors of both int and deque of double) 
+// function so that it could support generic inputs (vectors of both int and deque of double)
 // Use two generic types to accept both deque and vector.
 // Use the keyword auto for the generic T returned by the function max
 
 int max(const std::vector<int>& vec) {
-    assert(("vec should not be empty", !vec.empty())); 
+    assert(("vec should not be empty", !vec.empty()));
 
     int max_val = vec[0];
     for (const auto& v : vec) {
@@ -32,7 +32,7 @@ int max(const std::vector<int>& vec) {
 std::pair<int, double>  test_templates3() {
     std::vector<int> vec_i = {-4, 10, -2, 0, 3};
     std::deque<double> vec_d = {1.0e-1, 2.0, -4.0, 8.60};
-    
+
     const int max_i = max(vec_i);
     const double max_d = max(vec_d);
 

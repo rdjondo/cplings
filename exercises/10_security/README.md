@@ -1,6 +1,6 @@
 
 # Security
-Here, you'll learn some examples ofsecurity related bugs.
+Here, you'll learn some examples of security related bugs.
 
 ## TODO
 
@@ -19,7 +19,7 @@ https://arxiv.org/ftp/arxiv/papers/1910/1910.01321.pdf
 - List of common vulnerabilities
 https://owasp.org/www-community/vulnerabilities/
 
-- SEI CERT C++ Coding Standard 
+- SEI CERT C++ Coding Standard
 https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682
 
 

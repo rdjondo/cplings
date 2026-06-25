@@ -7,7 +7,7 @@
 // even after you already figured it out. 
 
 int type_function(int input) {
-  x = input; 
+  x = input;
   return x;
 }
 

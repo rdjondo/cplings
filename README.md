@@ -45,7 +45,7 @@ Clone this repository and build:
 git clone https://github.com/rdjondo/cplings
 cd cplings
 cmake . -B build
-cmake --build build --parallel 8
+cmake --build build --parallel $(nproc)
 ```
 
 You should expect the build to fail : your task is to fix each exercise for the build to succed.
@@ -71,8 +71,8 @@ The task is simple. Most exercises contain an error that keeps them from compili
 ### In Linux
 To run all exercises in predetermined order:
 
-(In the `build` directory)
 ```sh
+cd build
 make
 ```
 

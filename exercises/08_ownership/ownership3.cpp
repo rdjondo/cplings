@@ -73,7 +73,7 @@ std::vector<HolderBox> test_ownership3() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_ownership3_0") {
     std::vector<HolderBox> v = test_ownership3();

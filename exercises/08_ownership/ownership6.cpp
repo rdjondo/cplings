@@ -87,7 +87,7 @@ const int test_ownership6() {
     return total_past_owners;
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_ownership6") {
     std::cout << "\ntest_ownership6\n";

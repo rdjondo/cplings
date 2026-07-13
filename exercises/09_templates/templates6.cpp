@@ -64,7 +64,7 @@ bool test_templates6_5() {
 
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template6") {
     REQUIRE(test_templates6_0() == true);

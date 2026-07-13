@@ -39,7 +39,7 @@ std::pair<int, double>  test_templates3() {
     return {max_i, max_d};
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template3") {
     const std::pair<int, double> p = test_templates3();

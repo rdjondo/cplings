@@ -17,7 +17,7 @@ int double_value_function(int x) {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("double_value_function and constexpr") {
   assert (double_value_function(1) == 2);

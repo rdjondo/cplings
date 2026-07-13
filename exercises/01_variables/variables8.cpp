@@ -46,7 +46,7 @@ std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
     return response;
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("integer_signedness") {
     // Initialize data

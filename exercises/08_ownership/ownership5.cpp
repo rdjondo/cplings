@@ -47,7 +47,7 @@ std::unique_ptr<std::vector<int>> test_ownership5() {
     return std::move(vec);
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_ownership5") {
     std::cout << "\ntest_ownership5\n";

@@ -31,7 +31,7 @@ const char * convert_to_C_style_string(MediaPlayer & p, int index){
     return p.get_song_name(index).c_str();
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_security1_0") {
     MediaPlayer p;

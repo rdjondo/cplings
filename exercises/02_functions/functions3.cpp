@@ -20,7 +20,7 @@ int function_usage() {
 
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("function_usage") {
   REQUIRE(function_usage() == 0);

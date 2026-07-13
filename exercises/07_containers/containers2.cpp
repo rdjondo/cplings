@@ -22,7 +22,7 @@ void test_containers2() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_containers2") {
 	test_containers2();

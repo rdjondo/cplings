@@ -62,12 +62,12 @@ unsigned long long unsigned_integer_long_long_sizes() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("overflow_integer_sizes") {
     REQUIRE(integer_char_sizes() == -24);
     REQUIRE(unsigned_integer_char_sizes() == 232);
     REQUIRE(integer_long_sizes() == 80000);
     REQUIRE(integer_int_sizes() == 10'000'000);
-    REQUIRE(unsigned_integer_long_long_sizes() == 18446744073699551616);
+    REQUIRE(unsigned_integer_long_long_sizes() == 18446744073699551616LLU);
 }

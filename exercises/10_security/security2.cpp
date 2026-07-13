@@ -54,7 +54,7 @@ void make_upper_0_lower_1(MediaPlayer &p){
     std::cout << s1_lower << "\n";
 }
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_security2_0")
 {

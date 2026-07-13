@@ -53,7 +53,7 @@ void test_templates7_1() {
 
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("test_template6") {
     test_templates7_0();

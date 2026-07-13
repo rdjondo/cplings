@@ -12,7 +12,7 @@ int output_10_function() {
 }
 
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("output_10_function") {
   assert (output_10_function() == 10);

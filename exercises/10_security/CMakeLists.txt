@@ -22,8 +22,8 @@ foreach(_exercise ${EXERCISES})
   # Run test after build
   add_custom_command(
     TARGET ${_exercise}
+    POST_BUILD
     COMMENT "Run Tests"
-    DEPENDS ${_exercise}
     COMMAND ${_exercise}
   )
 endforeach()

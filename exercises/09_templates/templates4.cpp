@@ -21,7 +21,7 @@ public:
     auto age() const { return age_; };
 };
 
-template<typename ?> 
+template<typename ?>
 class Cat : public Animal<?> {
 public:
     Cat(int years) : Animal<?>(years) {};
@@ -33,7 +33,7 @@ constexpr double ONE_YEAR_AND_HALF = 1.5;
 std::pair<double, int>  test_templates4() {
     Cat blue(INTEGER_FOUR_YEARS);
     Cat sylvester(ONE_YEAR_AND_HALF);
-    
+
     return { sylvester.age(), blue.age() };
 }
 

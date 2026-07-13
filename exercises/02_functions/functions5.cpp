@@ -15,9 +15,9 @@ constexpr void is_even(int num) {
 auto sale_price = []() -> int {
     if (is_even(price))
         return price - 10;
-    else 
+    else
         return price - 3;
-    
+
 };
 
 int function_syntax() {

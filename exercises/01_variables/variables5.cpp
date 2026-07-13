@@ -8,7 +8,7 @@
 
 int output_10_function() {
   const int y = ;
-  return y; 
+  return y;
 }
 
 

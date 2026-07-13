@@ -7,7 +7,7 @@
 // even after you already figured it out. 
 
 
-void callme(int x) { 
+void callme(int x) {
 	for (int i = 0; i < x; i++) {
 		std::cout << "Ring! Call number " << i + 1 << "\n";
 	}

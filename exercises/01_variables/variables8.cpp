@@ -33,7 +33,7 @@ void init_words(){
 const std::string secret_key = "Encrypted S3cr3t!";
 
 std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
-    // Tip: if you cannot find the problem replace all uint32_t with 
+    // Tip: if you cannot find the problem replace all uint32_t with
     // safe<uint32_t>, from the boost::safe_numerics library
     // The safe<uint32_t> will throw an exception to help you find the bug
 
@@ -59,7 +59,7 @@ TEST_CASE("integer_signedness") {
         std::cout << "Next index to query " << i << ", this is word: " << words[i] << "\n";
         REQUIRE(test_danger_loop(i) == expected_words.at(i));
     }
-    
-    std::cout << "Next index to query is dangerous :" << 4 << ", this is word:" << words[4] << "\n";
+
+    std::cout << "Next index to query is dangerous: " << 4 << ", this is word: " << words[4] << "\n";
     REQUIRE(test_danger_loop(len + 1) == "");
 }

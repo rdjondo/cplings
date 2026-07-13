@@ -5,7 +5,7 @@
 // Make me compile! Go to the folder hint if you want a hint :)
 
 // We sometimes encourage you to keep trying things on shape given exercise,
-// even after you already figured it out. 
+// even after you already figured it out.
 
 // Step 1: Make me compile. Replace the array with the appropriate container.
 
@@ -26,7 +26,7 @@ void test_containers1() {
 TEST_CASE("test_containers1") {
 	test_containers1();
 	std::cout << "Size of container : " << my_sequence.size() << "\n";
-	REQUIRE(my_sequence.size() == num_elements); 
+	REQUIRE(my_sequence.size() == num_elements);
 
 	for (const auto& e : my_sequence) {
 		std::cout << "Value :" << e << "\n";

@@ -7,7 +7,6 @@
 // even after you already figured it out. 
 
 int double_value_function(const int input) {
-  // Solution fix the next line variable : note input cannot be modified
   return input;
 }
 

@@ -1,4 +1,4 @@
-﻿![C++ Logo](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+![C++ Logo](https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 # cplings C++❤️
 
@@ -11,7 +11,7 @@ Alternatively, for a first-time C++ learner, there are several other resources:
 - [The C++ FAQ](https://isocpp.org/wiki/faq)
 - [C++ Core guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
-*cplings got its inspiration from the magnificient [rustlings repository](https://github.com/rust-lang/rustlings), which aims at familiarizing newcomers to the Rust language. This repository is a sort of a fork of it but for the C++ language*
+*cplings got its inspiration from the magnificent [rustlings repository](https://github.com/rust-lang/rustlings), which aims at familiarizing newcomers to the Rust language. This repository is a sort of a fork of it but for the C++ language*
 
 
 ## Getting Started
@@ -24,7 +24,15 @@ Install and Usage Demo video:
 
 ## Windows
 Visit https://visualstudio.microsoft.com/vs/community/ and download Visual Studio Community.
-When, installing it make sure to select Desktop development with C++ and then, in the "Installation details" menu enable support for the C++ CMake Tools for Windows
+When installing it, make sure to select Desktop development with C++ and then, in the "Installation details" menu, enable support for the C++ CMake Tools for Windows.
+
+Clone this repository:
+
+```cmd
+git clone https://github.com/rdjondo/cplings
+```
+
+Open the folder cplings in Visual Studio. Add support for CMake and run a build. You should expect the build to fail: your task is to fix each exercise for the build to succeed.
 
 ## Linux
 
@@ -48,19 +56,7 @@ cmake . -B build
 cmake --build build --parallel $(nproc)
 ```
 
-You should expect the build to fail : your task is to fix each exercise for the build to succed.
-
-## Windows
-Install Visual Studio Community Edition and Git.
-
-```cmd
-# Clone this repository
-git clone https://github.com/rdjondo/cplings
-
-```
-
-Open the folder cplings in Visual Studio. Add support for CMake and run a build. You should expect the build to fail : your task is to fix each exercise for the build to succed.
-
+You should expect the build to fail: your task is to fix each exercise for the build to succeed.
 
 ## Doing the exercises
 
@@ -81,7 +77,7 @@ This will try to verify the completion of every exercise in a predetermined orde
 OR, to run a specific exercise, tell make with exercise to run. For example:
 
 ```bash
-make variable2
+make variables2
 ```
 
 ### In Windows

@@ -1,11 +1,11 @@
 
 # Ownership
-Here, you'll learn how to some ways of handling data lifetime and ownership.
+Here, you'll learn some ways of handling data lifetime and ownership.
 
 
 ## Some lifetime and ownership conventions
 How Ownership Works - from std::move to std::unique_ptr
-(Back to Basics: Smart Pointers - Rainer Grimm - CppCon 2020)[https://www.youtube.com/watch?v=sQCSX7vmmKY]
+[Back to Basics: Smart Pointers - Rainer Grimm - CppCon 2020](https://www.youtube.com/watch?v=sQCSX7vmmKY)
 
 ### func(value)
 value is:
@@ -19,7 +19,7 @@ pointer is:
 - Must not delete the resource 
 
 ### func(reference &)
-pointer is:
+reference is:
 - Borrowing resource
 - Resource is not empty
 - Must not delete the resource 

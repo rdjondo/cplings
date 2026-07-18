@@ -19,7 +19,19 @@ std::condition_variable cv;
 bool data_ready = false;
 int shared_value = 0;
 
+// Ensure the broken version fails deterministically: don't let the producer
+// publish until the consumer has taken the lock (and would be waiting on `cv`
+// once fixed).
+std::mutex start_mtx;
+std::condition_variable start_cv;
+bool consumer_started = false;
+
 void producer() {
+    {
+        std::unique_lock<std::mutex> lk(start_mtx);
+        start_cv.wait(lk, [] { return consumer_started; });
+    }
+
     {
         std::lock_guard<std::mutex> lock(mtx);
         shared_value = 42;
@@ -30,6 +42,13 @@ void producer() {
 
 int consumer() {
     std::unique_lock<std::mutex> lock(mtx);
+
+    {
+        std::lock_guard<std::mutex> lk(start_mtx);
+        consumer_started = true;
+    }
+    start_cv.notify_one();
+
     // Fix: wait on cv until data_ready is true, then read shared_value
     return shared_value;
 }

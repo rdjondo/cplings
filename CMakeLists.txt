@@ -78,6 +78,7 @@ set(CHAPTERS
   08_ownership
   09_templates
   10_security
+  11_threads
 )
 
 foreach(_test_case ${CHAPTERS})

@@ -109,7 +109,6 @@ cplings isn't done and could still be improved.
 - Structs and Classes
 - Better ownership stuff
 - Better safer programming, security stuff
-- Threads
 - Metaprogramming
 - ??? probably more
 

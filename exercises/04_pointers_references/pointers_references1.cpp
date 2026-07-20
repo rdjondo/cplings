@@ -25,7 +25,6 @@ void my_pointer_content(int * const value, int increment) { // the address of po
 TEST_CASE("my_pointer_value_swap") {
     std::vector<int> test_values = {1, 5, 10, 15};
     for(int & val : test_values) {
-        int* pointer = &val;
         int* new_data_ptr = my_pointer_value_swap(&val);
         REQUIRE(new_data_ptr  == &val); // new_data_ptr must point to val
     }

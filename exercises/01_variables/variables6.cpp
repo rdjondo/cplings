@@ -4,16 +4,17 @@
 // Make me compile! Go to the folder hint if you want a hint :)
 
 // We sometimes encourage you to keep trying things on a given exercise,
-// even after you already figured it out. 
+// even after you already figured it out.
 
-const int y = ; // y is a global variable. Fix it's definition.
-int global_var_10_function() {
-  return y; 
+constexpr int y = 10; // y is a global variable. Fix it's definition.
+int global_var_10_function()
+{
+  return y;
 }
-
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("output_10_function") {
-  assert (global_var_10_function() == 10);
+TEST_CASE("output_10_function")
+{
+  assert(global_var_10_function() == 10);
 }

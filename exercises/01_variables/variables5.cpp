@@ -4,16 +4,17 @@
 // Make me compile! Go to the folder hint if you want a hint :)
 
 // We sometimes encourage you to keep trying things on a given exercise,
-// even after you already figured it out. 
+// even after you already figured it out.
 
-int output_10_function() {
-  const int y = ;
-  return y; 
+int output_10_function()
+{
+  const int y = 10;
+  return y;
 }
-
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("output_10_function") {
-  assert (output_10_function() == 10);
+TEST_CASE("output_10_function")
+{
+  assert(output_10_function() == 10);
 }
